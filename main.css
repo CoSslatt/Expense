@@ -1,0 +1,68 @@
+.logo {
+    font-size: 32px;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 2px green;
+
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.input-section {
+    float: right;
+    margin-right: 200px;
+    margin-top: 61px;
+}
+
+.amount-input {
+    width: 120px;
+}
+
+.table-section {
+    width: 550px;
+
+    position: absolute;
+    left: 67%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.table-elements {
+    display: inline-block;
+
+    font-size: 14px;
+    opacity: 0.5;
+
+    margin-left: 110px;
+}
+
+.user-content {
+    width: 450px;
+    height: 100px;
+
+    position: absolute;
+    left: 67%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    font-size: 14px;
+    color: rgb(75, 75, 75);
+}
+
+.user-content thing-content {
+    width: 150px;
+    height: 50px;
+    float: left;
+}
+
+.amount-content {
+    width: 150px;
+    float: left;
+}
+
+.date-content {
+    width: 150px;
+    float: left;
+}
