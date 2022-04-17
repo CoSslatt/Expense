@@ -19,6 +19,12 @@
     width: 120px;
 }
 
+.submit {
+    display: block;
+
+    margin-top: 20px;
+}
+
 .table-section {
     width: 550px;
 
@@ -38,31 +44,19 @@
 }
 
 .user-content {
-    width: 450px;
-    height: 100px;
+    width: 150px;
+    height: 25px;
 
-    position: absolute;
-    left: 67%;
-    top: 38%;
-    transform: translate(-50%, -50%);
+    float: left;
+
+    position: relative;
+    left: 50.3%;
+    margin-top: 14%;
 
     text-align: center;
+    display: block;
+
     font-size: 14px;
     color: rgb(75, 75, 75);
-}
-
-.user-content thing-content {
-    width: 150px;
-    height: 50px;
-    float: left;
-}
-
-.amount-content {
-    width: 150px;
-    float: left;
-}
-
-.date-content {
-    width: 150px;
-    float: left;
+    border: 1px solid black;
 }
