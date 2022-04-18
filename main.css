@@ -43,20 +43,23 @@
     margin-left: 110px;
 }
 
+.user-section {
+    width: 465px;
+
+    position: absolute;
+    left: 49.5%;
+    top: 28%;
+
+    /* border: 1px solid black; */
+}
+
 .user-content {
     width: 150px;
     height: 25px;
 
-    float: left;
-
-    position: relative;
-    left: 50.3%;
-    margin-top: 14%;
-
     text-align: center;
-    display: block;
+    display: inline-block;
 
     font-size: 14px;
     color: rgb(75, 75, 75);
-    border: 1px solid black;
 }
